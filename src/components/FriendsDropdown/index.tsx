@@ -17,7 +17,7 @@ const FriendsDropdown = () => {
         <div className={styles.dropdown}>
             <button onClick={toggleDropdown} className={styles.Dropdownbutton}>
                 <Users size={22}/>
-                {activeFriends}
+                {activeFriends && activeFriends}
             </button>
             
 

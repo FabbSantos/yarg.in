@@ -17,7 +17,7 @@ const NotificationDropdown = () => {
         <div className={styles.dropdown}>
             <button onClick={toggleDropdown} className={styles.Dropdownbutton}>
                 <Bell size={22}/>
-                {NotificationCount}
+                {NotificationCount && NotificationCount}
             </button>
 
 
