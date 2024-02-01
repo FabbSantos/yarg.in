@@ -1,0 +1,33 @@
+.input {
+    background-color: var(--searchBarBackground);
+    
+    border: 1px solid var(--searchBarAccent);
+    border-radius: 50px;
+    min-width: 400px;
+    height: 50px;
+    padding-left: 30px;
+
+    color: var(--searchBarText);
+    font-size: inherit;
+    font-weight: 400;
+    font-style: italic;
+}
+.search {
+    all: unset;
+    transition: color .2s ease-in-out;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+    cursor: pointer;
+
+    &.search:hover {
+        color: white;
+    }
+}
+
+@media (min-width: 768px) {
+    .input {
+        min-width: 450px;
+    }
+}

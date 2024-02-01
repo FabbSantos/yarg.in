@@ -13,6 +13,10 @@
   --headerNewBg: #0A0A0A;
   --headerAccent: #717F9E;
   --headerVisited: #BAC0CD;
+
+  --searchBarBackground: #0F121D;
+  --searchBarAccent: #222638;
+  --searcBarText: #A6ACCA;
 }
 
 * {

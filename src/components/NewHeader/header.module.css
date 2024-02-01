@@ -7,6 +7,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 
     margin-inline: auto;
     padding: 20px 0;
@@ -18,7 +19,7 @@
 .headerWrapper a { 
     color: var(--headerAccent);
     transition: color .2s ease-in-out;
-    margin-inline: 10px;
+    margin-inline: 15px;
 }
 .headerWrapper a:visited{
     color: var(--headerVisited);
@@ -29,4 +30,14 @@
 .headerWrapper a:active, .headerWrapper a:focus, .headerWrapper a:focus-within {
     color: var(--blue);
     text-shadow: var(--blue10Percent) 0px 0px 10px;
+}
+
+.nav {
+    width: auto;
+    max-width: 95%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
