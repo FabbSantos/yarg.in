@@ -1,0 +1,32 @@
+.header {
+    background-color: var(--headerNewBg);
+}
+
+.headerWrapper {
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-inline: auto;
+    padding: 20px 0;
+
+    font-weight: 500;
+    font-size: .942rem;
+}
+
+.headerWrapper a { 
+    color: var(--headerAccent);
+    transition: color .2s ease-in-out;
+    margin-inline: 10px;
+}
+.headerWrapper a:visited{
+    color: var(--headerVisited);
+}
+.headerWrapper a:hover {
+    color: #fff;
+}
+.headerWrapper a:active, .headerWrapper a:focus, .headerWrapper a:focus-within {
+    color: var(--blue);
+    text-shadow: var(--blue10Percent) 0px 0px 10px;
+}

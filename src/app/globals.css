@@ -2,6 +2,7 @@
   --max-width: 1200px;
   --borderRadius: 8px;
   --blue: #2ED9FF;
+  --blue10Percent: rgba(46, 217, 255, .10);
   --maxWidth: 1200px;
 
   --background: white;
@@ -9,7 +10,9 @@
 
   --heroBackground: #060811;
   --headerBackground: #05060B;
+  --headerNewBg: #0A0A0A;
   --headerAccent: #717F9E;
+  --headerVisited: #BAC0CD;
 }
 
 * {

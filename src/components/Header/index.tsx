@@ -12,7 +12,7 @@ type Props = {
 }
 
 const Header: React.FC<Props> = ({
-    mode = "dark",
+    mode = "transparent",
     children,
     className,
 }: Props) => {
