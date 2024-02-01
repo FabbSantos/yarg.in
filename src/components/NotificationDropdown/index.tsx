@@ -15,9 +15,11 @@ const NotificationDropdown = () => {
 
     return (
         <div className={styles.dropdown}>
-            <button onClick={toggleDropdown} className={styles.Dropdownbutton}><Bell size={22}/></button>
+            <button onClick={toggleDropdown} className={styles.Dropdownbutton}>
+                <Bell size={22}/>
+                {NotificationCount}
+            </button>
 
-            {NotificationCount}
 
             {showDropdown && (
                 <div className={styles.dropdownMenu}>

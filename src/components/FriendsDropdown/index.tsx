@@ -15,9 +15,11 @@ const FriendsDropdown = () => {
 
     return (
         <div className={styles.dropdown}>
-            <button onClick={toggleDropdown} className={styles.Dropdownbutton}><Users size={22}/></button>
+            <button onClick={toggleDropdown} className={styles.Dropdownbutton}>
+                <Users size={22}/>
+                {activeFriends}
+            </button>
             
-            {activeFriends}
 
             {showDropdown && (
                 <div className={styles.dropdownMenu}>

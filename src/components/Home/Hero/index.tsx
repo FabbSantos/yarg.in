@@ -1,7 +1,7 @@
 import styles from "./hero.module.css";
 
 import RotatingWords from '@/components/RotatingWords';
-import Header from '@/components/Header';
+import Header from '@/components/NewHeader';
 import Button from "@/components/Button";
 import { Discord } from "@/assets/Icons";
 import { Package } from "lucide-react";

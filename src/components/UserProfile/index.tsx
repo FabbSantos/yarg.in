@@ -15,11 +15,13 @@ const NotificationDropdown = () => {
 
     return (
         <div className={styles.dropdown}>
-            <button onClick={toggleDropdown} className={styles.Dropdownbutton}><Menu size={24}/></button>
+            <button onClick={toggleDropdown} className={styles.Dropdownbutton}>
+                <Menu size={24}/>
+                <p>Hey, <span className={styles.strong}>{user}</span></p> 
+                <CircleUser size={24} />
+            </button>
 
-            <p>Hey, <span className={styles.strong}>{user}</span></p> 
 
-            <CircleUser size={24} />
 
             {/* {showDropdown && (
                 <div className={styles.dropdownMenu}>

@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from "react";
+import React, { Children, useState } from "react";
 import SearchBar from "../SearchBar/index";
 import styles from './header.module.css'
 import NotificationDropdown from "../NotificationDropdown";
@@ -35,6 +35,7 @@ const Header = () => {
             </nav>
         </div>
     </header>
+
   )
 }
 

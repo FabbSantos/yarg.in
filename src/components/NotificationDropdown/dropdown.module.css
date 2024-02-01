@@ -1,9 +1,5 @@
 .dropdown {
     position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     gap: 2px;
     margin-inline: 20px;
 }
@@ -29,6 +25,12 @@
 .Dropdownbutton {
     all: unset;
     cursor: pointer;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3px;
 
     transition: color .2s ease-in-out;
     &.Dropdownbutton:hover {
